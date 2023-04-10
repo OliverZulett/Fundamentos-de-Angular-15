@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TitleComponent } from './title/title.component';
 import { AvatarComponent } from './avatar/avatar.component';
+import { BtnComponent } from './btn/btn.component';
+import { IconComponent } from './icon/icon.component';
+import { LinkComponent } from './link/link.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { AvatarComponent } from './avatar/avatar.component';
     FooterComponent,
     TitleComponent,
     AvatarComponent,
+    BtnComponent,
+    IconComponent,
+    LinkComponent,
   ],
   imports: [
     BrowserModule,

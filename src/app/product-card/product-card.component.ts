@@ -18,8 +18,19 @@ export class ProductCardComponent {
     filter: 'sepia(0)'
   }
 
+  formState = false
+
+  address = ''
+  postalCode = 0
+
   buyProduct() {
     console.log('compraremos un producto');
+    this.formState = true
+  }
+
+  orderProduct() {
+    console.log(`Direccion de usuario: ${this.address}`);
+    console.log(`Codigo postal: ${this.postalCode}`);
   }
 
   addToCart() {

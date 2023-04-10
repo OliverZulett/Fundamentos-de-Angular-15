@@ -11,6 +11,8 @@ export class ProductCardComponent {
     name: 'Tasty Granite Salad',
     description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     unitAvailable: 20,
+    date: 'Tue Aug 16 2022 00:41:27 GMT-0400 (Bolivia Time)',
+    price: 34.5645645
   }
 
   productImageStyle = {

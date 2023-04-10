@@ -11,6 +11,7 @@ import { BtnComponent } from './btn/btn.component';
 import { IconComponent } from './icon/icon.component';
 import { LinkComponent } from './link/link.component';
 import { UserCardComponent } from './user-card/user-card.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { UserCardComponent } from './user-card/user-card.component';
     IconComponent,
     LinkComponent,
     UserCardComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,

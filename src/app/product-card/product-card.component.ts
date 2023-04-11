@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product-card',
@@ -6,14 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent {
-  product = {
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80',
-    name: 'Tasty Granite Salad',
-    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
-    unitAvailable: 20,
-    date: 'Tue Aug 16 2022 00:41:27 GMT-0400 (Bolivia Time)',
-    price: 34.5645645
-  }
+  @Input() product: any
 
   productImageStyle = {
     border: '1px solid black',

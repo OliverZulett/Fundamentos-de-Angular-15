@@ -2,30 +2,37 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 12px;
   border: 1px solid black;
-  padding: 18px;
-  width: 350px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   &--image {
+    padding: 18px 0px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
     img {
-      width: 100%;
+      width: calc(100% - 32px);
       border-radius: 12px;
       object-fit: cover;
+      height: 300px;
     }
   }
 
   &--info {
-    &__title {}
+    padding: 0 18px;
 
     &__description {
       text-align: justify;
     }
+
     &__price {
       width: 100%;
       display: flex;
       justify-content: flex-end;
+
       h1 {
         margin: 0 0 20px 0;
       }
@@ -33,7 +40,6 @@
   }
 
   &--actions {
-    margin: 10px 0;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -57,7 +63,7 @@
     }
 
     &__btn {
-      margin-left: 10px;
+      margin: 18px 18px 18px 0px;
       border: none;
       height: 50px;
       width: 100px;

@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  width: 100%;
+  .search-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    input {
+      border: 1px solid black;
+      margin-right: 12px;
+      height: 15px;
+      padding: 8px;
+      border-radius: 18px;
+    }
+  }
+}

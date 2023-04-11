@@ -1,4 +1,10 @@
-<app-title 
-  [title]="pageTitle"
-  (dataFromChild)="onDataCheck($event)"
-></app-title>
+<header>
+  <app-title 
+    [title]="pageTitle"
+    (dataFromChild)="onDataCheck($event)"
+  ></app-title>
+  <div class="search-avatar">
+    <input [(ngModel)]="searchParam" type="text" (keydown.enter)="onSearch()" placeholder="buscar">
+    <app-avatar [userInfo]="userInfo"></app-avatar>
+  </div>
+</header>

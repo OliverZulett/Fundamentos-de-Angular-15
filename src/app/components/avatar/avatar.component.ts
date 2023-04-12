@@ -12,8 +12,8 @@ import { Component, Input } from '@angular/core';
   `,
   styles: [
     `.avatar { height: 50px; width: 50px; padding: 5px}`,
-    `.admin { border-radius: 100%; }`,
-    `.sales { border-radius: 18px; }`,
+    `.admin { height: 50px; width: 50px; padding: 5px; border-radius: 100%; }`,
+    `.sales { height: 50px; width: 50px; padding: 5px; border-radius: 18px; }`,
   ]
 })
 export class AvatarComponent {

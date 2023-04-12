@@ -10,6 +10,7 @@ import { LinkComponent } from './link/link.component';
 import { UserCardComponent } from './user-card/user-card.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   exports: [
     ProductCardComponent,
